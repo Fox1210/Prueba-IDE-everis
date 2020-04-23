@@ -1,10 +1,11 @@
 package controlador;
 
+import modelo.Coche;
+
 public class ControlCoche {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Coche coche1=new Coche(100);
 	}
 
 }
