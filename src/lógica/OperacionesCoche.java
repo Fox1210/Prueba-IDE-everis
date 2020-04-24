@@ -1,4 +1,4 @@
-package lÃ³gica;
+package lógica;
 
 import modelo.Coche;
 
@@ -18,5 +18,8 @@ public class OperacionesCoche {
 	
 	public static void sumaKilometros(int km, Coche c1) {
 		c1.setContadorKilometros(km+c1.getContadorKilometros());
+	}
+	public static void reiniciarKilometros( Coche c1) {
+		c1.setContadorKilometros(0);
 	}
 }
