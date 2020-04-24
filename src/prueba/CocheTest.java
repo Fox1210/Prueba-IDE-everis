@@ -26,7 +26,7 @@ class CocheTest {
 		OperacionesCoche.reiniciarKilometros(c1);
 		OperacionesCoche.reiniciarKilometros(c2);
 		assertEquals(0, c1.getContadorKilometros());
-		assertEquals(1, c2.getContadorKilometros());//linea de error para probar el ASSERTEQUALS
+		//assertEquals(1, c2.getContadorKilometros());//linea de error para probar el ASSERTEQUALS
 	}
 
 	@Test
@@ -35,5 +35,6 @@ class CocheTest {
 		int b=2;
 		int c;
 		c=OperacionesCoche.sumaNumeros(a, b);
+		assertEquals(3, c);
 	}
 }
