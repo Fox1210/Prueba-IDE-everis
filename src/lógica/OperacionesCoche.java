@@ -22,4 +22,10 @@ public class OperacionesCoche {
 	public static void reiniciarKilometros( Coche c1) {
 		c1.setContadorKilometros(0);
 	}
+	public static int sumaNumeros(int a, int b) {
+		int c = a + b;
+		
+		return c;
+	}
+	
 }

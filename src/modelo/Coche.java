@@ -80,7 +80,7 @@ public class Coche {
 	// TO STRING
 	@Override
 	public String toString() {
-		return "Coche [numeroDeRuedas=" + this.numeroDeRuedas + ", marca=" + this.marca + ", modelo=" + this.modelo + ", arancar="
+		return "Coche: [numeroDeRuedas=" + this.numeroDeRuedas + ", marca=" + this.marca + ", modelo=" + this.modelo + ", arancar="
 				+ this.arancar + ", derrapar=" + this.derrapar + ", ContadorKilometros=" + this.ContadorKilometros + "]";
 	}
 }
